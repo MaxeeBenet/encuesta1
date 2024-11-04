@@ -26,7 +26,7 @@ def principal():
     cursor = server.cursor()
     
     # Puedes cargar una imagen desde una URL o una ubicación accesible en Streamlit Cloud
-    st.image(r"C:\Users\maxim\Downloads\cropped-dbi12Large.png")
+    #st.image(r"C:\Users\maxim\Downloads\cropped-dbi12Large.png")
 
     st.title("Encuesta")
     st.write("¡Hola! Tenemos una pequeña encuesta, espero no te moleste realizarla, ¡Muchas gracias!")
