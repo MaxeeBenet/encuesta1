@@ -34,7 +34,7 @@ def principal():
     nombre = st.text_input("Decime, ¿Cuál es tu nombre?").strip().lower()
     apellido = st.text_input("¿Y cuál es tu apellido?").strip().lower()
     direccion = st.text_input("Si no te molesta, ¿Podrías indicarnos una dirección?").strip().lower()
-    telefono = st.text_input("¿Te molestaria indicarnos un teléfono?").lower().strip()
+    telefono = st.text_input("¿Te molestaria indicarnos un teléfono? (Sin espacios ni signos)").lower().strip()
     email = st.text_input("¿Podrías indicarnos un email de contacto?").strip().lower()
     ocupacion = st.text_input("¿A qué te dedicas en este momento?").strip().lower()
     estado_civil = st.text_input("¿Cuál es tu estado civil?").lower().strip()
