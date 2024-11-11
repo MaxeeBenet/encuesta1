@@ -26,7 +26,7 @@ def principal():
     cursor = server.cursor()
     
     # Puedes cargar una imagen desde una URL o una ubicación accesible en Streamlit Cloud
-    st.image(r'http://i12.com.ar/moodle/pluginfile.php/1/core_admin/logo/0x200/1590465306/i12Large.png' )
+    #st.image(r'http://i12.com.ar/moodle/pluginfile.php/1/core_admin/logo/0x200/1590465306/i12Large.png' )
 
     st.title("Encuesta")
     st.write("¡Hola! Tenemos una pequeña encuesta, espero no te moleste realizarla, ¡Muchas gracias!")
