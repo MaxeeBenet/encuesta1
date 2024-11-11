@@ -2,15 +2,15 @@ import streamlit as st
 import psycopg2 # type: ignore
 import os
 
-# Función para conectar a la base de datos de Supabase
+
 def conexion_base():
     try:
         return psycopg2.connect(
-            host="aws-0-sa-east-1.pooler.supabase.com",   # Cambia con el host de tu base de datos de Supabase
-            database="postgres",      # Cambia con el nombre de tu base de datos
-            user="postgres.aapedvwloqydrfdagkte",                # Cambia con tu usuario de Supabase
-            password="Km23jl9zu2@",             # Cambia con tu contraseña de Supabase
-            port=6543                             # Puerto predeterminado para PostgreSQL
+            host="aws-0-sa-east-1.pooler.supabase.com",   
+            database="postgres",      
+            user="postgres.aapedvwloqydrfdagkte",                
+            password="Km23jl9zu2@",             
+            port=6543                             
         )
     except psycopg2.Error as err:
         st.error(f"Error: {err}")
