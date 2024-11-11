@@ -64,8 +64,7 @@ def principal():
                 server.close()
         else:
             st.warning("Por favor, completa todos los campos.")
-    if st.button("Limpiar campos"):
-        st.experimental_rerun()
+   
 
 
 if __name__ == "__main__":
