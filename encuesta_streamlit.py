@@ -2,7 +2,7 @@ import streamlit as st
 import psycopg2 # type: ignore
 import os
 
-
+#para que no se apague.
 def conexion_base():
     try:
         return psycopg2.connect(
